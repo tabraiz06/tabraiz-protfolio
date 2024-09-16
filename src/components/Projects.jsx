@@ -1,4 +1,8 @@
 import React from "react";
+import todo from "../assets/todo-app.jpg"
+import e_commerce from "../assets/e-commerce.jpg"
+import weaterApp from "../assets/weather-app.jpg"
+import laundry from "../assets/laundry-cart.jpg"
 
 const projects = [
   {
@@ -6,28 +10,28 @@ const projects = [
     description:
       "A task management tool built using the MERN stack. Users can create, update, and manage their tasks efficiently.",
     url: "https://todo-react-app-mern.netlify.app/",
-    image: "https://source.unsplash.com/random/800x600?todo",
+    image: todo,
   },
   {
     title: "E-Commerce App",
     description:
       "An e-commerce platform where sellers can manage products and customers can make purchases. Features include product management and order tracking.",
     url: "https://mern-mini-cart-app.netlify.app/",
-    image: "https://source.unsplash.com/random/801x600?ecommerce",
+    image: e_commerce,
   },
   {
     title: "Weather App",
     description:
       "A weather application built with React and Tailwind CSS. Provides real-time weather information and a user-friendly interface.",
     url: "https://unique-puffpuff-8580ed.netlify.app/signin",
-    image: "https://source.unsplash.com/random/802x600?weather",
+    image: weaterApp,
   },
   {
     title: "Laundry App",
     description:
       "A specialized app for laundry service businesses, enabling service management and customer interactions using the MERN stack.",
     url: "https://laundry-cart-app.netlify.app/",
-    image: "https://source.unsplash.com/random/803x600?laundry",
+    image: laundry,
   },
   {
     title: "Text Utilities",
